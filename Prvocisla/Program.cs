@@ -29,7 +29,7 @@ for (int i = 3; i < upperBound; i += 2) //a)
     {
         if (i % primes[index] == 0) //c)
         {
-            isPrime = false; //nalezení dělitele
+            isPrime = false; //nalezení dělitele => není prvočíslo
             break;
         }
         index++;
@@ -41,7 +41,7 @@ for (int i = 3; i < upperBound; i += 2) //a)
     }
 }
 
-//výpis všech nalezených prvočísla do konzole
+//výpis všech nalezených prvočísel do konzole
 /*for (int i = 0; i < writeIndex; i++)
 {
     Console.WriteLine(primes[i]);
